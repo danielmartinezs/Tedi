@@ -1,17 +1,20 @@
-.float-parent-element { 
-    width: 50%; 
-} 
-.float-child-element { 
-    float: left; 
-    width: 50%; 
-} 
-.red { 
-    background-color: red; 
-    margin-left: 50%; 
-    height: 100px; 
-} 
-.yellow { 
-    margin-left: 50%; 
-    height: 100px; 
-    background-color: yellow; 
-}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  
+  }
+  .color-nav{
+          background-color: rgb(29,63,148);
+          font:Times; 
+          
+  
+  }
+  .color-nav-hover{
+    color: rgb(234, 250, 7)
+  
+  }
+  .container-emp-profile{
+    border:1px solid black;
+  
+  }

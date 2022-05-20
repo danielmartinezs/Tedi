@@ -14,3 +14,25 @@
   color: rgb(234, 250, 7)
 
 }
+.container-emp-profile{
+  border:1px solid black;
+  height: 500px;
+  width: 500px;
+  display:flex;
+  justify-content:center;
+
+}
+.col-md-6{
+  display:flex;
+  justify-content:center;
+  color:blue;
+  size: 13;
+
+}
+.col-md-6{
+  display:flex;
+  justify-content:left;
+  color:blue;
+  border: 5px solid;
+
+}

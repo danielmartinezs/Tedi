@@ -19,15 +19,10 @@ import CuestionariosAdmin from './Pages/Cuestionarios/CuestionariosAdmin'
 import CuestionariosCreacionAdmin from './Pages/Cuestionarios/CuestionariosCreacionAdmin'
 import CuestionariosEdicionAdmin from './Pages/Cuestionarios/CuestionariosEdicionAdmin'
 import CuestionariosResponderAdmin from './Pages/Cuestionarios/CuestionariosResponderAdmin'
-import PerfilSeleccionAdmin from './Pages/Perfil/PerfilSeleccionAdmin'
-import PerfilCrearAdmin from './Pages/Perfil/PerfilSeleccionAdmin'
-import PerfilEditarAdmin from './Pages/Perfil/PerfilSeleccionAdmin'
+import PerfilEditarAdmin from './Pages/Perfil/PerfilEditarAdmin'
 import PerfilCrearPerfAdmin from './Pages/Perfil/PerfilCrearPerfAdmin'
-import PerfilEditarPerfAdmin from './Pages/Perfil/PerfilEditarPerfAdmin'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'survey-core/modern.min.css';
-import "survey-core/defaultV2.min.css";
-import "survey-creator-core/survey-creator-core.min.css";
+
+
 
 
 
@@ -67,11 +62,11 @@ function App() {
                   <Route exact path="/CuestionariosEdicionAdmin" element={<CuestionariosEdicionAdmin/>}/>
                   <Route exact path="/CuestionariosResponderAdmin" element={<CuestionariosResponderAdmin/>}/>
 
-                  <Route exact path="/PerfilSeleccionAdmin" element={<PerfilSeleccionAdmin/>}/>
-                  <Route exact path="/PerfilCrearAlumAdmin" element={<PerfilCrearAdmin/>}/>
+                 
+                  
                   <Route exact path="/PerfilCrearPerfAdmin" element={<PerfilCrearPerfAdmin/>}/>
                   <Route exact path="/PerfilEditarAdmin" element={<PerfilEditarAdmin/>}/>
-                  <Route exact path="/PerfilEditarPerfAdmin" element={<PerfilEditarPerfAdmin/>}/>
+                
                  
                  
                   {/*Aqui abajo es la pagina principal del usuario padre*/} 
